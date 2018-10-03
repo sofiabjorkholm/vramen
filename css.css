@@ -1,0 +1,148 @@
+body, html {
+	max-width:100%;
+	height: auto;
+    margin: 0;
+	font-family: 'Segoe UI';
+	background-color: white;
+}
+#header {
+	background-image: url("background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+	padding: 20px;
+	margin: 20px;
+	color: white
+}
+h1 {
+	font-size: 40px;
+	margin-left: 40px;
+	color: white
+}
+ul {
+	list-style-type: none;
+	margin: 5px;
+	padding: 5px;
+	overflow: hidden;
+	color: white;
+}
+li {
+	float: left;
+}
+li a {
+	margin-bottom: 5px;
+	margin-top: 5px;
+	margin-left: 100px;
+	margin-right: 300px;
+	float: left;
+	text-align: center;
+	padding: 25px 28px;
+	text-decoration: none;
+	font-size: 30px;
+	color:white;
+	font-family: fantasy;
+	border-radius: 10%;
+}
+li a:hover {
+	background-color: white;
+	color: black;
+}
+h2 {
+	font-size: 25px;
+    margin-left: 300px;
+    font-family: fantasy;
+}
+h3 {
+	font-size: 20px;
+    margin-left: 200px;
+    font-family: fantasy;
+}
+#head1:hover	{
+	background-color: rgb(235, 229, 229);
+}
+#head2:hover	{
+	background-color: rgb(235, 229, 229);
+}
+#head3:hover	{
+	background-color: rgb(235, 229, 229);
+}
+#head1, #head2, #head3	{
+	margin-left: 55px;
+	margin-right: 20px;
+	font-size: 20px;
+    border-radius: 1%;
+    font-family: fantasy;
+}
+#hide1, #hide2, #hide3 {
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-bottom: 30px;
+	margin-top: 10px;
+	width: 60%;
+    display: none;
+    font-family: fantasy;
+}
+
+#logo {
+	border-radius: 50%;
+	margin-left: 40px;
+	margin-top: 40px;
+}
+footer {
+	margin: 40px;
+}
+#image {
+	margin-left: 200px;
+	border-radius: 5%;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+#deliveroo {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 80px
+}
+#foodora {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 80px
+}
+#uber {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 80px
+}

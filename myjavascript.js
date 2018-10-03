@@ -1,0 +1,21 @@
+  $(document).ready(function(){
+      $("#head1").mouseenter(function(){
+         $("#hide1").slideToggle(1500);
+     });
+     $("#head1").mouseleave(function(){
+        $("#hide1").slideToggle(1500);
+     });
+      $("#head2").mouseenter(function(){
+        $("#hide2").slideToggle(1500);
+     });
+     $("#head2").mouseleave(function(){
+        $("#hide2").slideToggle(1500);
+     });
+     $("#head3").mouseenter(function(){
+        $("#hide3").slideToggle(1500);
+     });
+     $("#head3").mouseleave(function(){
+        $("#hide3").slideToggle(1500);
+     });
+  });
+ 
